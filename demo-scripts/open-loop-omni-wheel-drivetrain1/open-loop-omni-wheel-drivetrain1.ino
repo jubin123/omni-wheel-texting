@@ -39,7 +39,7 @@ float R = 0.2776; // robot wheel-base radius
 int scaling_factor = 255;  // pseudo scaling factor, in open loop we can't accurately send RPM commands so instead this scales the PWM signal to a reasonable value in the range of [0, 255]
 
 void setup() {
-  Serial.begin(4800);  
+  Serial.begin(57600);  
 }
 
 void loop() {
