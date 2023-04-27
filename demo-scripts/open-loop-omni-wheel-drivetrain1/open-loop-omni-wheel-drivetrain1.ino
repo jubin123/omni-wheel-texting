@@ -81,7 +81,7 @@ b = Serial.readString( );
     
   }*/
 
-  calc_speed(strs[0].toInt(),strs[1].toInt(), strs[2].toInt());
+  calc_speed(strs[0].toFloat(),strs[1].toFloat(), strs[2].toFloat());
   //delay(1500);
 
 }  
