@@ -35,7 +35,7 @@ motorDriver M2(M2IN1,M2IN2, PWMPin2);
 motorDriver M3(M3IN1,M3IN2, PWMPin3);
 
 #define PI 3.14159265
-float R = 0.2776; // robot wheel-base radius
+float R = 0.5; // robot wheel-base radius
 int scaling_factor = 255;  // pseudo scaling factor, in open loop we can't accurately send RPM commands so instead this scales the PWM signal to a reasonable value in the range of [0, 255]
 
 void setup() {

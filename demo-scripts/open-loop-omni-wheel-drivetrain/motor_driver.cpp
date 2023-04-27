@@ -23,8 +23,8 @@ void motorDriver::spin(char Dir, unsigned char PWM){
       digitalWrite(_PWMPin, LOW);
       break;
     case 1:     // clockwise
-      digitalWrite(_IN1, HIGH);
-      digitalWrite(_IN2, LOW);
+      digitalWrite(_IN1, LOW);
+      digitalWrite(_IN2, HIGH);
       analogWrite(_PWMPin, PWM);
       break;
   }
